@@ -18,6 +18,7 @@ Proyecto de clase para la Unidad 1 de la Asignatura de Desarrollo Móvil Integra
 |8|Funciones y parámetros|11|Finalizada✅|
 |9|Clases|10|Finalizada✅|
 |10|Constructores nombrados|8|ACTIVA|
+|11|Stters y Getter|9|ACTIVA|
 
 ## LISTA DE HERRAMIENTAS
 ![DART](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
