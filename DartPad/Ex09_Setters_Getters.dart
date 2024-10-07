@@ -1,30 +1,27 @@
-void main() {
-  final mySquare = Square (side: 10);
+void main(){
+  final mySquare = Square(side:10);
 
-
-  mySquare._side = -32;
- 
-  print("""Lado del cuadrado: ${mySquare._side} Area que ocupa: ${mySquare.calculateArea()}""");
+  mySquare.side = 5;
+  print("El area es igual a: ${mySquare.area}");
 }
 
 class Square {
   double _side;
-
-  Square({required double side})
-    :_side=side;
+  
+  Square({ required double side })
+    : _side = side;
 
   double get area {
-    return _side * _side;
+      return _side * _side;
   }
- 
-  set side(double value){
-    print('Asignando un nuevo valor al lado: $value');
-    if (value < 0) throw 'El valor del lado debe ser mayor a 0 ';
 
+  set side(double value){
+    print("setting new value $value");
+      if (value < 0) throw 'Value must be >=0';
     _side = value;
   }
-
+  
   double calculateArea() {
-    return _side * _side;
+  return _side * _side;
   }
 }
